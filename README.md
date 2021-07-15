@@ -20,7 +20,7 @@ input files should be named as *_1.fastq.gz *_2.fastq.gz
 
 
 Running error fix solution:
-File "/gpfs/loomis/project/gerstein/my435/conda_envs/03162021/lib/python3.9/site-packages/networkx/algorithms/dag.py", line 23, in <module>
+File "/xxxx/conda_envs/03162021/lib/python3.9/site-packages/networkx/algorithms/dag.py", line 23, in <module>
     from fractions import gcd
 change this line with "import math"
 and change line 467 "g = gcd(g, levels[u] - levels[v] + 1)" to "g = math.gcd(g, levels[u] - levels[v] + 1)"
